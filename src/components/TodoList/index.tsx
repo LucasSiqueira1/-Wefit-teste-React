@@ -4,8 +4,14 @@ import { v4 as uuidv4 } from "uuid";
 import { EmptyItem } from "../EmptyItem";
 import { TodoAdd } from "../TodoAdd";
 
-import trash from "../../assets/icons/ic-delete.png";
-import { ModalList, TitleList, ButtonDelete, ImageTrash } from "./styles";
+import trash from "../../assets/icons/ic-delete@2x.png";
+import {
+  Container,
+  ModalList,
+  TitleList,
+  ButtonDelete,
+  ImageTrash,
+} from "./styles";
 
 export interface ItemTodoContent {
   id: string;
@@ -29,8 +35,9 @@ export function TodoList() {
   };
 
   return (
-    <div>
+    <Container>
       <TodoAdd inputData={newItemTodo} />
+
       {todoList.length ? (
         <>
           {todoList.map((item: any) => (
@@ -45,6 +52,6 @@ export function TodoList() {
       ) : (
         <EmptyItem />
       )}
-    </div>
+    </Container>
   );
 }

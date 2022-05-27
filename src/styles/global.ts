@@ -11,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
     --text-input: #909090;
     --text-input-content: #303030;
     --text-modal: #606060;
-
   }
 
   * {
@@ -19,20 +18,23 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
   }
-  html{
-        @media(max-width: 1080px){
-            font-size: 92.75%;
-        }
-        @media(max-width: 720px){
-            font-size: 87.5%;
-        }
+
+  html {
+    @media(max-width: 1080px){
+      font-size: 92.75%;
     }
-    body{
-      background: var(--background);
-        -webkit-font-smoothing: antialiased;
+    @media(max-width: 720px){
+      font-size: 87.5%;
     }
-    body, input, button{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-    }
+  }
+
+  body {
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body, input, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
 `;

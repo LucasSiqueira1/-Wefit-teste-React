@@ -7,6 +7,8 @@ export const InputContent = styled.input`
   border: none;
   border-radius: 2px;
   padding: 16px;
+  font-size: 16px;
+  color: var(--text-input-content);
 
   &::placeholder {
     color: var(--text-input);

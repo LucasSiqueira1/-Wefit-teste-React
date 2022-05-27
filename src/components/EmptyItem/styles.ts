@@ -23,7 +23,6 @@ export const EmptyItemContainer = styled.div`
 `;
 
 export const TextSpan = styled.span`
-  font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: var(--text-color);
