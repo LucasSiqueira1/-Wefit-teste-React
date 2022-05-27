@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Wefit Teste React
+Resolução do teste de React proposto pela Wefit.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br/>
+<p align="center">
+  <a href="#sobre">Desafio</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#tecnologia">Tecnologias</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#executar">Como executar</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+#
+<br/>
+Para acessar a aplicação já hospedada, acesse esse link: https://wefit-teste-react-lucassiqueira1.vercel.app/
 
-### `yarn start`
+<br/> <br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<a name="sobre"></a>
+## 🗒 Desafio
+   <p>
+      O projeto constituía-se em realizar uma aplicação de Todo List, onde o usuário pode adicionar itens e remover os mesmos, excluindo-os da sua lista de itens. 
+   </p> <br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+   <a name="layout"></a>
+## 💻 Layout
+   <p>
+      Para acessar o layout da aplicação no Figma, clique <a href="https://www.figma.com/file/ppxwB20F6ONYoLZcV6A5G6/%5BWeFit%5D-Teste-Front-2019?node-id=2%3A19" target="_blank">nesse link</a>
+   </p> <br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+<a name="tecnologia"></a>
+## 🤖 Tecnologias
+   <p>
+      Esse projeto foi feito com as tecnologias citadas abaixo:  <br/>
+   
+   <ul>
+      <li>ReactJS</li>
+      <li>TypeScript</li>
+      <li>Styled Components</li>
+      <li>Uuid</li>
+      <li>ESLint</li>
+      <li>Prettier</li>
+   </ul>
+   </p>
+   
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/><a name="executar"></a>
+## ⚙️ Como Executar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone o repositório
+git clone https://github.com/LucasSiqueira1/Wefit-teste-React.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Entre no diretório
+cd Wefit-teste-React
 
-### `yarn eject`
+# Baixe as dependências
+yarn install ou yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Execute a aplicação
+yarn start
+```
+Será aberto no seu navegador, em `http://localhost:3000/` a aplicação. (Ou em outra porta, caso essa já esteja em uso).
+   
+   
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
