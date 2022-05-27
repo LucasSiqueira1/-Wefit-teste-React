@@ -1,11 +1,11 @@
 import React from "react";
 
-import { EmptyItemContainer } from "./styles";
+import { EmptyItemContainer, TextSpan } from "./styles";
 
 export function EmptyItem() {
   return (
     <EmptyItemContainer>
-      <span>Nenhum item cadastrado</span>
+      <TextSpan>Nenhum item cadastrado</TextSpan>
     </EmptyItemContainer>
   );
 }

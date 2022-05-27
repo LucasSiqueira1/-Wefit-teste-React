@@ -11,6 +11,9 @@ export const GlobalStyle = createGlobalStyle`
     --text-input: #909090;
     --text-input-content: #303030;
     --text-modal: #606060;
+
+    --scroll-grey: #E5E5E5;
+    --scroll-grey-800: #CCCCCC;
   }
 
   * {

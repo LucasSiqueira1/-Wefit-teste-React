@@ -8,6 +8,10 @@ export const ButtonContainer = styled.button`
   border: none;
   background-color: var(--buttonAddgreen);
   cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const IconPlusButton = styled.img`

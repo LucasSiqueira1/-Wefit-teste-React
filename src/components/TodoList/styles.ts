@@ -19,6 +19,7 @@ export const ModalList = styled.div`
   opacity: 0;
   transform: translateY(15px);
   animation: ${propsTodoList} 0.5s both;
+  overflow-y: auto;
 
   display: flex;
   justify-content: space-between;

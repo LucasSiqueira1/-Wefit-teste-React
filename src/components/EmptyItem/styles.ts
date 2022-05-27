@@ -25,5 +25,5 @@ export const EmptyItemContainer = styled.div`
 export const TextSpan = styled.span`
   font-size: 12px;
   line-height: 14px;
-  color: var(--text-color);
+  color: var(--text-modal);
 `;
