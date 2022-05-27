@@ -9,13 +9,7 @@ export const Container = styled.div`
   background-color: var(--background);
 `;
 
-export const Content = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding-top: 24px;
-`;
+export const Content = styled.div``;
 export const ModalCenter = styled.div`
   display: flex;
   justify-content: center;

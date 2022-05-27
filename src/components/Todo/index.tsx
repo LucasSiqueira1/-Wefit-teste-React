@@ -1,18 +1,14 @@
 import React from "react";
 
-import { Container, Content, ModalCenter } from "./styles";
+import { Container, ModalCenter } from "./styles";
 
-import { Input } from "../Input";
-import { ButtonAdd } from "../ButtonAdd";
 import { EmptyItem } from "../EmptyItem";
+import { TodoAdd } from "../TodoAdd";
 
 export function Todo() {
   return (
     <Container>
-      <Content>
-        <Input />
-        <ButtonAdd />
-      </Content>
+      <TodoAdd />
       <ModalCenter>
         <EmptyItem />
       </ModalCenter>
