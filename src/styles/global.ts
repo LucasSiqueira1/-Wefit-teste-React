@@ -1,6 +1,19 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+  :root {
+    --background: #E5E5E5;
+    --white: #FFFFFF;
+    --grey: #F2F2F2;
+
+    --buttonAddgreen: #40D9B8;
+
+    --text-input: #909090;
+    --text-input-content: #303030;
+    --text-modal: #606060;
+
+  }
+
   * {
     padding: 0;
     margin: 0;
@@ -15,6 +28,7 @@ export const GlobalStyle = createGlobalStyle`
         }
     }
     body{
+      background: var(--background);
         -webkit-font-smoothing: antialiased;
     }
     body, input, button{
