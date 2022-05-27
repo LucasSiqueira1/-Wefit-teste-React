@@ -3,15 +3,12 @@ import React from "react";
 import { Container, ModalCenter } from "./styles";
 
 import { EmptyItem } from "../EmptyItem";
-import { TodoAdd } from "../TodoAdd";
+import { TodoList } from "../TodoList";
 
 export function Todo() {
-  const teste = () => {
-    alert("teste");
-  };
   return (
     <Container>
-      <TodoAdd inputData={teste} />
+      <TodoList />
       <ModalCenter>
         <EmptyItem />
       </ModalCenter>
