@@ -2,8 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #E5E5E5;
-    --white: #FFFFFF;
+    --background: #FFFFFF;
     --grey: #F2F2F2;
 
     --buttonAddgreen: #40D9B8;
@@ -35,4 +34,4 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
     }
-`
+`;

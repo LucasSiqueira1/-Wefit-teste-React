@@ -1,11 +1,12 @@
 import React from "react";
+import { Todo } from "./components/Todo";
 
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
   return (
     <>
-      <h1>teste wefit!</h1>
+      <Todo />
       <GlobalStyle />
     </>
   );
