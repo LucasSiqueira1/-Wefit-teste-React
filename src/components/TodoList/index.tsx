@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { EmptyItem } from "../EmptyItem";
 import { TodoAdd } from "../TodoAdd";
-import { ContentList } from "./styles";
+
+import trash from "../../assets/icons/ic-delete.png";
+import { ModalList, TitleList, ButtonDelete, ImageTrash } from "./styles";
 
 export interface ItemTodoContent {
   id: string;
@@ -27,22 +29,22 @@ export function TodoList() {
   };
 
   return (
-    <ContentList>
+    <div>
       <TodoAdd inputData={newItemTodo} />
       {todoList.length ? (
         <>
           {todoList.map((item: any) => (
-            <div key={item.id}>
-              <div>
-                <div>{item.title}</div>
-                <button onClick={() => deleteItemTodo(item.id)}> X</button>
-              </div>
-            </div>
+            <ModalList key={item.id}>
+              <TitleList>{item.title}</TitleList>
+              <ButtonDelete onClick={() => deleteItemTodo(item.id)}>
+                <ImageTrash src={trash} alt="Botão de remover itens" />
+              </ButtonDelete>
+            </ModalList>
           ))}
         </>
       ) : (
         <EmptyItem />
       )}
-    </ContentList>
+    </div>
   );
 }

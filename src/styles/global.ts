@@ -4,6 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --background: #FFFFFF;
     --grey: #F2F2F2;
+    --grey-bold: #EEEEEE;
 
     --buttonAddgreen: #40D9B8;
 
