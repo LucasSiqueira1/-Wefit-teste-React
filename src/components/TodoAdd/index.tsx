@@ -1,14 +1,12 @@
-/* eslint-disable no-unused-expressions */
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import { ItemTodoContent } from "../TodoList";
+import { TitleProps } from "../TodoList";
 import { ContentAdd } from "./styles";
 
 import { ButtonAdd } from "../ButtonAdd";
 import { Input } from "../Input";
 
 interface TodoAddProps {
-  inputData: (todoTitle: ItemTodoContent) => void;
+  inputData: (todoTitle: TitleProps) => void;
 }
 
 export function TodoAdd({ inputData }: TodoAddProps) {
@@ -19,9 +17,11 @@ export function TodoAdd({ inputData }: TodoAddProps) {
   };
 
   const handleAddTodo = () => {
-    inputValue
-      ? inputData({ id: uuidv4(), title: inputValue })
-      : alert("Digite algo");
+    if (inputValue) {
+      inputData({ title: inputValue });
+    } else {
+      alert("Preencha o campo de texto!");
+    }
     setInputValue("");
   };
 
