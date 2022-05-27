@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { TitleProps } from "../TodoList";
-import { ContentAdd } from "./styles";
 
+import { TitleProps } from "../TodoList";
 import { ButtonAdd } from "../ButtonAdd";
 import { Input } from "../Input";
+
+import { ContentAdd } from "./styles";
 
 interface TodoAddProps {
   inputData: (todoTitle: TitleProps) => void;

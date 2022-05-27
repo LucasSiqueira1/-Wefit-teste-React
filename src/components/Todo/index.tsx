@@ -1,16 +1,17 @@
 import React from "react";
 
-import { Container, ModalCenter } from "./styles";
-
-/* import { EmptyItem } from "../EmptyItem"; */
 import { TodoList } from "../TodoList";
+
+import { Content, Container, ModalCenter } from "./styles";
 
 export function Todo() {
   return (
-    <Container>
-      <ModalCenter>
-        <TodoList />
-      </ModalCenter>
-    </Container>
+    <Content>
+      <Container>
+        <ModalCenter>
+          <TodoList />
+        </ModalCenter>
+      </Container>
+    </Content>
   );
 }

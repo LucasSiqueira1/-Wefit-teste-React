@@ -2,12 +2,12 @@ import React from "react";
 
 import { InputContent } from "./styles";
 
-interface InputPros {
+interface InputProps {
   data: string;
   propsValue: React.ChangeEventHandler<HTMLInputElement>;
 }
 
-export function Input({ propsValue, data }: InputPros) {
+export function Input({ propsValue, data }: InputProps) {
   return (
     <InputContent
       type="text"

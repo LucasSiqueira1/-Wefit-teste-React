@@ -16,13 +16,12 @@ export const ModalList = styled.div`
   background-color: var(--grey-bold);
   margin-top: 10px;
   padding: 8px 15px;
-
-  display: flex;
-  justify-content: space-between;
-
   opacity: 0;
   transform: translateY(15px);
   animation: ${propsTodoList} 0.5s both;
+
+  display: flex;
+  justify-content: space-between;
 
   &:nth-child(2) {
     margin-top: 24px;
