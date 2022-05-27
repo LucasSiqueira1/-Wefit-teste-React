@@ -1,0 +1,10 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true,
+  "[javascriptReact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
