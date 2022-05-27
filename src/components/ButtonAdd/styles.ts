@@ -7,6 +7,7 @@ export const ButtonContainer = styled.button`
   border-radius: 100px;
   border: none;
   background-color: var(--buttonAddgreen);
+  cursor: pointer;
 `;
 
 export const IconPlusButton = styled.img`

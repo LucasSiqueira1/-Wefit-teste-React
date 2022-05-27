@@ -16,3 +16,8 @@ export const Content = styled.div`
   margin: 0 auto;
   padding-top: 24px;
 `;
+export const ModalCenter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
