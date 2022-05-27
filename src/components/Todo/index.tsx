@@ -1,13 +1,17 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Content } from "./styles";
 
 import { Input } from "../Input";
+import { ButtonAdd } from "../ButtonAdd";
 
 export function Todo() {
   return (
     <Container>
-      <Input />
+      <Content>
+        <Input />
+        <ButtonAdd />
+      </Content>
     </Container>
   );
 }
